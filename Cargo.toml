@@ -1,0 +1,16 @@
+[package]
+name = "clipppy"
+version = "0.1.0"
+authors = ["Angus Johnson", "Georg Brandl"]
+edition = "2021"
+license = "Boost"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.21", features = ["extension-module"] }
+
+[build-dependencies]
+cc = "1.0"
+bindgen = "0.69"
