@@ -1,5 +1,5 @@
-import clipppy
-off = clipppy.Offseter(0.1, -1, 1, "square")
+import shapeoffset
+off = shapeoffset.Offseter(0.1, -1, 1, "square")
 off.add_point(0,0)
 off.add_point(5,0)
 off.add_point(5,5)

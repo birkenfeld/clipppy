@@ -203,7 +203,7 @@ impl Drop for OffsetPoly {
 }
 
 #[pymodule]
-fn clipppy(m: &Bound<'_, PyModule>) -> PyResult<()> {
+fn shapeoffset(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_class::<Offseter>()?;
     m.add_class::<OffsetPoly>()?;
     Ok(())

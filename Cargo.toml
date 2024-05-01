@@ -1,5 +1,5 @@
 [package]
-name = "clipppy"
+name = "shapeoffset"
 version = "0.1.0"
 authors = ["Angus Johnson", "Georg Brandl"]
 edition = "2021"
